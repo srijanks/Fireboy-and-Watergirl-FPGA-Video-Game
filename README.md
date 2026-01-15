@@ -2,7 +2,7 @@
  
 ### Real-Time Dual-Player Game System on Spartan-7 FPGA with Audio & HDMI Output
 
-A complete hardware/software co-design project implementing the game **Fireboy & Watergirl** on a Spartan-7 FPGA, featuring real-time graphics, dual-player USB keyboard control, collision physics, and PCM audio playback.
+A complete hardware/software co-design project implementing the game **Fireboy & Watergirl** on a Spartan-7 FPGA, featuring real-time graphics, dual-player USB keyboard control, collision physics, and PCM audio playback. This game was used for our ECE 385 final project submission.
 
 ---
 

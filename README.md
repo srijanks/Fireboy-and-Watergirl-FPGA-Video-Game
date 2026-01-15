@@ -70,19 +70,19 @@ Players control Fireboy and Watergirl simultaneously using a USB keyboard, navig
 ---
 
 ## 🏗️ System Architecture
--USB Keyboard → MAX3421E → SPI → MicroBlaze
--↓
--Memory-Mapped I/O
--↓
--Character Control + Physics (SystemVerilog)
--↓
--Collision Engine + Sprite Renderer
--↓
--Color Mapper (Per-Pixel)
--↓
--VGA Controller → VGA-to-HDMI → Display
+- USB Keyboard → MAX3421E → SPI → MicroBlaze
+- ↓
+- Memory-Mapped I/O
+- ↓
+- Character Control + Physics (SystemVerilog)
+- ↓
+- Collision Engine + Sprite Renderer
+- ↓
+- Color Mapper (Per-Pixel)
+- ↓
+- VGA Controller → VGA-to-HDMI → Display
 
--Audio Samples (BRAM) → PWM Generator → Speaker
+- Audio Samples (BRAM) → PWM Generator → Speaker
 
 
 ---

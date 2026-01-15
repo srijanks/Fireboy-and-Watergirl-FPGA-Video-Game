@@ -2,7 +2,7 @@
  
 ### Real-Time Dual-Player Game System on Spartan-7 FPGA with Audio & HDMI Output
 
-> A complete hardware/software co-design project implementing the game **Fireboy & Watergirl** on a Spartan-7 FPGA — featuring real-time graphics, dual-player USB keyboard control, collision physics, and PCM audio playback.
+A complete hardware/software co-design project implementing the game **Fireboy & Watergirl** on a Spartan-7 FPGA, featuring real-time graphics, dual-player USB keyboard control, collision physics, and PCM audio playback.
 
 ---
 
@@ -12,11 +12,11 @@ This project implements a fully interactive **2-player platform game** on a **Sp
 
 - **SystemVerilog hardware design**
 - **MicroBlaze soft processor**
-- **Real-time VGA → HDMI graphics pipeline**
+- **Real-time VGA - HDMI graphics pipeline**
 - **SPI-based USB keyboard interface**
 - **BRAM-based PCM audio playback**
 
-Players control Fireboy and Watergirl simultaneously using a USB keyboard, navigate obstacles, activate levers and buttons, collect diamonds, avoid hazardous lava, and race against a 5-minute timer — all rendered at **640×480 @ 60Hz**.
+Players control Fireboy and Watergirl simultaneously using a USB keyboard, navigate obstacles, activate levers and buttons, collect diamonds, avoid hazardous lava, and race against a 5-minute timer, all rendered at **640×480 @ 60Hz**.
 
 ---
 
@@ -70,19 +70,19 @@ Players control Fireboy and Watergirl simultaneously using a USB keyboard, navig
 ---
 
 ## 🏗️ System Architecture
-USB Keyboard → MAX3421E → SPI → MicroBlaze
-↓
-Memory-Mapped I/O
-↓
-Character Control + Physics (SystemVerilog)
-↓
-Collision Engine + Sprite Renderer
-↓
-Color Mapper (Per-Pixel)
-↓
-VGA Controller → VGA-to-HDMI → Display
+-USB Keyboard → MAX3421E → SPI → MicroBlaze
+-↓
+-Memory-Mapped I/O
+-↓
+-Character Control + Physics (SystemVerilog)
+-↓
+-Collision Engine + Sprite Renderer
+-↓
+-Color Mapper (Per-Pixel)
+-↓
+-VGA Controller → VGA-to-HDMI → Display
 
-Audio Samples (BRAM) → PWM Generator → Speaker
+-Audio Samples (BRAM) → PWM Generator → Speaker
 
 
 ---

@@ -56,7 +56,7 @@ Players control Fireboy and Watergirl simultaneously using a USB keyboard, navig
 
 ---
 
-## 🎮 Game Features
+## Game Features
 
 - Dual-player simultaneous control  
 - Multiple game states: **Start → Play → Win/Lose**
@@ -69,7 +69,7 @@ Players control Fireboy and Watergirl simultaneously using a USB keyboard, navig
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 - USB Keyboard → MAX3421E → SPI → MicroBlaze
 - ↓
 - Memory-Mapped I/O
